@@ -18,7 +18,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.PAT_20230326_30DAYS }}
+          password: ${{ secrets.GHCR_IO_PAT }}
       - name: Build and push Docker images
         uses: docker/build-push-action@v2
         with:
