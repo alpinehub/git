@@ -27,5 +27,3 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64/v8,linux/arm/v6,linux/ppc64le,linux/s390x
           tags: |
             ghcr.io/alpinehub/git:latest
-            ghcr.io/alpinehub/git:{{ github.sha }}
-
