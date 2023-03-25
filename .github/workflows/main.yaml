@@ -7,8 +7,6 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo Hello World
-        run: env
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Set up QEMU
